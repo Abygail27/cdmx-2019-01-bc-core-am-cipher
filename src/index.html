@@ -4,15 +4,50 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    </head>
+    <body>
+    
     <div id="root">
-      <h1>Hola, mi primer proyecto!</h1>
-      <p>segunda prueba</p>
     </div>
+
+    <div class="header">
+    <h1>Codigo Sorpresa</h1>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    </div>
+   
+
+    <div id= "select">
+    <p>elige un número de desplazamiento alfabetico</p>
+    <input type="number" id="offset" name="alfabetico"
+       min="1" max="50">
+    </div>
+    
+
+    <div id= "write">
+    <p>escribe tu plan perfecto para la sorpresa</p>
+    <textarea id="text" rows="12" cols="60" placeholder="¡No olvides ningun detalle!" class="text"></textarea>
+     
+        
+   <p>aqui esta el plan perfecto en codigo cipher, sera una gran fiesta sorpresa</p>
+   <textarea id="print_text" rows="12" cols="60" placeholder="nadie se enterara de la gran sorpresa que le espera" class="text"></textarea>
+   </div>
+
+   <button id="encode" class="oneb">Cifrar</button>
+   <button id="decode" class ="twob">Descifrar</button>
+   <button id="three" class="threeb">Limpiar</button>
+  
+
+
+    <div id="share">
+    <p>ahora es momento de compartir con tus amigos que te ayudaran a que sea una completa sorpresa para esa persona especial.</p>
+    
+  </div>
+
+            
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
-</html>
+    </body>
+    </html>
+
 
 

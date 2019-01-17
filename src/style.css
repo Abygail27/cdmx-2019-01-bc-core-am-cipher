@@ -1,0 +1,71 @@
+	
+	body {
+    background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    } 
+
+    .header {
+	padding: 5px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+    }
+
+	h1{
+	text-align: center;
+	
+    }
+
+	p{
+	text-align: center;
+	margin-bottom: 32px;
+    }
+
+	#text{
+	background-color: white;
+	text-align: center;
+	margin-bottom: 32px;
+	}
+	
+	#print{
+	background-color: white;
+	text-align: center;
+	margin-bottom: 32px;
+	}
+
+	button.oneb{
+		background-color: gray;
+		text-align: center;
+		flex: white;
+		font-size: 12px;
+		padding: 14px 40px;
+		border-radius: 4px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+	button.twob{
+	background-color: gray;
+		text-align: center;
+		color: white;
+		font-size: 12px;
+		padding: 14px 40px;
+		border-radius: 4px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+	button.threeb{
+		background-color: gray;
+		text-align: center;
+		color: white;
+		font-size: 12px;
+		padding: 14px 40px;
+		border-radius: 4px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+
+	}

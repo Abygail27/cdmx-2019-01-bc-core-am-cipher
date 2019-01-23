@@ -12,7 +12,7 @@
     //crear botones con funcionalidad para encode, decode
     en_code.addEventListener ('click', ( )  => {
     let des_pla = parseInt(offset.value);
-    let msj = mensaje_principal.value.toUpperCase();
+    let msj = mensaje_principal.value;
     document.getElementById('print_text').textContent = window.cipher.encode (des_pla,msj);
     //console.log(en_code);
     }); 

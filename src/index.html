@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     </head>
@@ -11,11 +12,12 @@
     </div>
 
     <div class="header">
-    <h1>Digital Disco</h1>
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Righteous"rel="stylesheet">
+    <h1>Digital clubbing</h1>
+    <h2>Comparte tu experiencia Nocturna</h2>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Orbitron" rel="stylesheet">
+    <button id="help">¿como funciona?</button>
     </div>
-   
-
+    <div id= "caja_principal" class="show"> 
     <div id= "select">
     <p>elige un número</p>
      <input type="number" id="offset" name="alfabetico"
@@ -24,23 +26,31 @@
     
 
     <div id= "write">
-    <p>¿donde te encuentas?.</p>
-    <textarea id="text" rows="12" cols="60" placeholder="¡No olvides ningún detalle!" class="text"></textarea>
+    <p>¿donde te encuentras?</p>
+    <textarea id="text" rows="10" cols="60" placeholder="¡No olvides ningún detalle!" class="text"></textarea>
     </div>
+
+    <button id="encode" class="oneb">Cifrar</button>
+    <button id="decode" class ="twob">Descifrar</button>
+    <button id="three" class="threeb">Limpiar</button>    
+
     <div>   
-   <p>¡listo para compartir!</p>
-   <textarea id="print_text" rows="12" cols="60" placeholder=" " class="text"></textarea>
+   <p>¡listo para compartir!<br>ahora conoceran tu ubicación y como la estas pasando para que te acompañen.</br></p>
+   <textarea id="print_text" rows="10" cols="60" placeholder=" " class="text"></textarea>
    </div>
 
-   <button id="encode" class="oneb">Cifrar</button>
-   <button id="decode" class ="twob">Descifrar</button>
-   <button id="three" class="threeb">Limpiar</button>
   
       
     <div class ="footer">
-    <p>¡pegalo en tu muro para que tus amigos sepan donde esta la fiesta!</p>
-   </div>
+    </div>
+  </div>
 
+  <div id="instrucciones" class = "hide">
+      <p>instrucciones</p>
+    <button id = "menu">Regresar</button>
+   
+  </div>
+       
             
     <script src="cipher.js"></script>
     <script src="index.js"></script>

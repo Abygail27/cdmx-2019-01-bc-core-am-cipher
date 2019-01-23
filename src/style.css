@@ -66,6 +66,13 @@ text-align: center;
 		border: 0px outset rgba(28,110,164,0.18);
         border-radius: 40px 40px 40px 40px;  
 	}
+	 
+	button:hover{
+	background-color: white;
+	color: black;	
+
+
+	} 
 
 	button.twob{
 	background-color: gray;
@@ -77,6 +84,12 @@ text-align: center;
 		border: 0px outset rgba(28,110,164,0.18);
         border-radius: 40px 40px 40px 40px;  
 	}
+	button:hover{
+		background-color: white;
+		color: black;	
+	
+	
+		} 
 
 	button.threeb{
 		background-color: gray;
@@ -90,7 +103,49 @@ text-align: center;
 	
 
 	}
+	button:hover{
+		background-color: white;
+		color: black;	
+	
+	
+		} 
 
+		button.helpus{
+			background-color: black;
+			text-align: center;
+			color: white;
+			font-size: 12px;
+			padding: 14px 40px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+			border: 0px outset rgba(28,110,164,0.18);
+			border-radius: 40px 40px 40px 40px;  
+			opacity: 0.5;
+			filter: alpha(opacity=70);
+		}
+
+		button:hover{
+			background-color: white;
+			color: black;
+		}
+
+		button.goback{
+			background-color: black;
+			text-align: center;
+			color: white;
+			font-size: 12px;
+			padding: 14px 40px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+			border: 0px outset rgba(28,110,164,0.18);
+			border-radius: 40px 40px 40px 40px;  
+			opacity: 0.5;
+			filter: alpha(opacity=70);
+		}
+
+		button:hover{
+			background-color: white;
+			color: black;
+		}
+		
 	show{
 		display: none; 
 	}

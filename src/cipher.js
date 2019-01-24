@@ -14,10 +14,9 @@ window.cipher = {
             }
            //primera parte minusculas ascii
            else if(text.charCodeAt(i) >= 97 && text.charCodeAt(i) <= 122) {
-                
-                let asciicode = (text.charCodeAt(i) - 97 + offset) % 26 + 97; 
-                let resultado_formula = String.fromCharCode(asciicode );
-                msj_vacio += resultado_formula;
+         let asciicode = (text.charCodeAt(i) - 97 + offset) % 26 + 97; 
+        let resultado_formula = String.fromCharCode(asciicode );
+         msj_vacio += resultado_formula;
 
             }
             //primera parte signos ascii

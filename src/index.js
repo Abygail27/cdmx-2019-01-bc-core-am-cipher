@@ -33,8 +33,8 @@
     //funcion pagina instrucciones
     const caja_principal = document.getElementById ('caja_principal');
     const caja_dos =document.getElementById ('instrucciones');
-    const help = document.getElementById ('help');
-    const menu = document.getElementById ('menu');
+    //const help = document.getElementById ('help');
+    //const menu = document.getElementById ('menu');
    
     document.getElementById ('help').addEventListener ('click',( ) => {
         caja_principal.style.display = 'none';

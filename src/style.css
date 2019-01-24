@@ -181,6 +181,8 @@ transform: translate(-289px, -170px);
 	article{
 		background-color:white;
 		text-align: center;
+		font-size: 200%;
+		font-family:'Major Mono Display', monospace;
 		-webkit-border-radius: 19px;
 -moz-border-radius: 19px;
 border-radius: 19px;

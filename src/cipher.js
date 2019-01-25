@@ -1,7 +1,7 @@
 window.cipher = {
 
     encode: (offset, text) => {
-        let msj_vacio = "";
+        let msj_vacio = " ";
 
         //primera parte mayusculas ascii
         for (let i = 0; i < text.length; i++) {

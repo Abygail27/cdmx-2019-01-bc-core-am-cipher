@@ -33,7 +33,7 @@
     const caja_principal = document.getElementById ('caja_principal');
     const caja_dos =document.getElementById ('instrucciones');
     
-   
+     //show and hide al hacer click 
     document.getElementById ('help').addEventListener ('click',( ) => {
         caja_principal.style.display = 'none';
         caja_dos.style.display = 'block';   

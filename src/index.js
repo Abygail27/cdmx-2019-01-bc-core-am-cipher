@@ -1,4 +1,5 @@
-    
+
+
     // crear variables globales para llamarlas en funciones
 
     const mensaje_principal = document.getElementById ('text');

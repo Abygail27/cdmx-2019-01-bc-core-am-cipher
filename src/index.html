@@ -1,66 +1,89 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clubbing</title>
-    <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
     
-  
+<!DOCTYPE html>
+<html lang="es">
 
-    <div class="header">
-    <h1>Digital clubbing</h1>
-    <h2>Comparte tu experiencia Nocturna</h2>
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Orbitron" rel="stylesheet">
-    </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surpise</title>      
+  <link rel="shortcut icon" href="./images/Blog-Surprise.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
 
-    <div id= "caja_principal" class="show"> 
-    <div id= "select">
-          <button id="help" class = "helpus">¿como funciona?</button>
-    <p>elige un número</p>
-     <input type="number" id="offset" name="alfabetico"
-       min="1" max="50">
-    </div>
-  
+<body id="body">
+    <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li id="btn-about" class="item-menu">Acerca de</li>
+          <li id="btn-DIY" class="item-menu">DIY</li>
+          <li id="btn-shop" class="item-menu">Comprar Articulos</li>
+          <li class="item-menu">Contacto</li>
+        </ul>
+      </nav>
+<div class="container__general" id="ctn__general">
+  <header class="header" id="header">
+    
+      <img class="icon-logo" src="./images/Blog-Surprise.png" alt="nav">
+ 
+      <div id="nav-icon" class="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+  </header>
 
-    <div id= "write">
-    <p>¿donde te encuentras?</p>
-    <textarea id="text" rows="10" cols="60" placeholder="¡No olvides ningún detalle!" class="text"></textarea>
-    </div>
-
-    <button id="encode" class="oneb">Cifrar</button>
-    <button id="decode" class ="twob">Descifrar</button>
-    <button id="three" class="threeb">Limpiar</button>    
-
-    <div>   
-   <p>¡listo para compartir!</p>
-   <textarea id="print_text" rows="10" cols="60" placeholder=" " class="text"></textarea>
-   </div>
-
-  
-      
-    <div class ="footer">
-    </div>
-  </div>
-
-  <div id="instrucciones" class = "hide">
-      <p>¿como funciona?</p>
-      <article>Ingresa un número clave para tu mensaje<br>Escribe un texto sobre la Fiesta
-        <br>(ubicación,contactos,detalles especiales etc.)
-        <br>¡no olvides compartirlo con tus amigos para que te acompañen a la diversión!</article>
-      <button id = "menu" class = "goback">Regresar</button>
-      </div>
-
+  <main id="container" class="container">
+ 
    
   
-       
-            
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-    </body>
-    </html>
+    <section id="general-entry" class="general-entry">
+        <h4 class="title-party">Fiesta Sorpresa</h4>
+  
+        <div id= "caja_principal" class="show"> 
+            <div id= "select">
+            <p>elige un número</p>
+             <input type="number" id="offset" name="alfabetico"
+               min="1" max="50">
+            </div>
 
 
 
+      <div class="order__filters">
+
+
+        <div class="first-text right">
+   
+          <p>¿donde te encuentras?</p>
+    <textarea id="text" rows="10" cols="30" placeholder="¡No olvides ningún detalle!" class="text"></textarea>
+        </div>
+
+
+        <div class="button-code">
+            <button id="encode" class="oneb">Cifrar</button>
+            <button id="decode" class ="twob">Descifrar</button>
+            <button id="three" class="threeb">Limpiar</button>    
+        
+          </div>
+
+        <div class="share">
+            <p>¡listo para compartir!</p>
+            <textarea id="print_text" rows="10" cols="30" class="text"></textarea>
+        </div>
+      </div>
+
+
+
+
+
+      <div id="information-filter-inner" class="information__filtered"></div>
+    </section>
+  </main>
+
+</div>
+         
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
